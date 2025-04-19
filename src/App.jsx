@@ -1,9 +1,9 @@
 import React from 'react';
-
+import UsersList from './components/UsersList';
 const App = () => {
   return (
-    <div>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <div className='container mx-auto'>
+      <UsersList />
     </div>
   );
 };
